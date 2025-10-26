@@ -2,14 +2,14 @@
 
 [build]
   # Build command
-  command = "npm run docs:build"
+  command = "npm run build"
 
   # Directory with the built site
-  publish = "docs/.vitepress/dist"
+  publish = ".vitepress/dist"
 
   # Set Node.js version
   [build.environment]
-    NODE_VERSION = "18"
+    NODE_VERSION = "20"
 
 # Redirects and rewrites
 [[redirects]]
@@ -31,11 +31,3 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
-
-# Deploy previews configuration
-[context.deploy-preview]
-  command = "npm run docs:build"
-
-# Branch deploys
-[context.branch-deploy]
-  command = "npm run docs:build"
