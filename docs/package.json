@@ -8,13 +8,9 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "http://local_proxy@127.0.0.1:16995/git/danbruder/lsm-cpp"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.6.4"
   }
