@@ -31,6 +31,28 @@ This defers the cost of maintaining sorted structures, making writes much faster
 - **Modern C++**: Use C++17/20 features appropriately
 - **Well-tested**: Comprehensive unit and integration tests
 
+## Documentation
+
+📚 **[Full Documentation Site](https://lsm-tree-learning.netlify.app)** (Coming Soon)
+
+This project includes comprehensive documentation built with VitePress, covering:
+- Step-by-step implementation guides
+- Deep dives into LSM tree concepts
+- Code architecture and design decisions
+- Performance benchmarks and analysis
+
+### Run Documentation Locally
+
+```bash
+# Install dependencies
+npm install
+
+# Start documentation dev server
+npm run docs:dev
+```
+
+Visit `http://localhost:5173` to browse the docs.
+
 ## Quick Start
 
 ### Prerequisites
@@ -38,6 +60,7 @@ This defers the cost of maintaining sorted structures, making writes much faster
 - C++17 or later compiler
 - CMake 3.15+
 - Google Test (optional, for tests)
+- Node.js 18+ (for documentation)
 
 ### Building (Coming Soon)
 

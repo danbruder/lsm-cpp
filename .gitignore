@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VitePress build output
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# C++ build artifacts
+build/
+*.o
+*.a
+*.so
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+*.test
+*.gcov
+*.gcda
+*.gcno
+
+# Data directory (LSM tree data)
+data/
+*.sst
+*.wal
+*.log

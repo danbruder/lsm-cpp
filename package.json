@@ -1,0 +1,21 @@
+{
+  "name": "lsm-cpp",
+  "version": "1.0.0",
+  "description": "A learning-focused implementation of a Log-Structured Merge (LSM) tree in modern C++.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:16995/git/danbruder/lsm-cpp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
