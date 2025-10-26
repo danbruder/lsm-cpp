@@ -102,6 +102,7 @@ export default defineConfig({
       provider: 'local'
     }
   },
+  
 
   // Markdown configuration for better code highlighting
   markdown: {

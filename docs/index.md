@@ -89,9 +89,6 @@ cd lsm-cpp
 
 # Read the plan
 cat LSM_TREE_PLAN.md
-
-# Start with the guide
-npm run docs:dev
 ```
 
 ## Documentation Structure
